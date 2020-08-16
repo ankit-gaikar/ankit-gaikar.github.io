@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="css/ionicons.min.css">
  
   <!-- Main CSS-->
-  <link rel="stylesheet" href="css/main.css">
+  
   <!-- CSS Color scheme-->
 	
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -42,6 +42,10 @@
 		.hrefWithoutDecoration {text-decoration: none !important; color:black !important;}
 		.activeCustom {color:#FFF}
 		.inactiveCustom {color:#A9A9A9}
+		.img-fluid {max-width: 40%; /* height: auto; */ }
+		ul.navbar-nav.ml-auto a {color: #ffffff; }
+		li.nav-item {margin: 10px; }
+		.fixed-top {background: black; position: fixed; top: 0; right: 0; left: 0; z-index: 1030; } 
 	</style>
 
 
@@ -50,8 +54,7 @@
 
 <body class="theme-dark">
   <!-- Preloader-->
-  
-  <div id="overlay-effect"></div>
+
   <!-- Navbar-->
   <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
       <!-- Navbar Logo-->
@@ -68,21 +71,37 @@
       </ul>
     </div>
   </nav>
-
-  <div class="container pt-5 pb-3">
-	<div class="row">
-		<div class="col-lg-8">
-			<div class="row pb-3">
-				<div class="col">
-					<h3 class="text-white">Blogs</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<section class="blog">
+	<div class="container">
+		
 
 <div class="container">
 	<div class="row">
+
+		<div class="container pt-5 pb-3">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="row pb-3">
+						<div class="col">
+							<h3 class="text-white">Blogs</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container pt-10 pb-3">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="row pb-3">
+						<div class="col">
+							<h3 class="text-white">Blogs</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="col-lg-8">
 			<div class="row bg-light mb-5 shadow mx-1" >
 				<div class="col-md-4">
@@ -140,6 +159,8 @@
 		</div>
 	</div>
 </div>
+</div>
+</section>
 		
 </body>
 	
